@@ -16,7 +16,7 @@ ifndef AICP_BUILDTYPE
         RELEASE_TYPE := $(shell echo $(RELEASE_TYPE) | sed -e 's|^AICP_||g')
         AICP_BUILDTYPE := $(RELEASE_TYPE)
     else
-        AICP_BUILDTYPE := UNOFFICIAL
+        AICP_BUILDTYPE := UNOFFICIAL_by_aoleary
     endif
 endif
 
